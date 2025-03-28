@@ -79,7 +79,7 @@ train[0:100,5]=1
 train[100:200,5]=0
 test[0:65,5]=1
 test[65:100,5]=0
-###############   we fed the training and test data here. If nothing is changed, this demo will give you an incrediably 100% precision and 100% recall. Well done.
+###############   we fed the training and test data here. If nothing is changed, this demo will give you an incrediably 100% precision and 100% recall due to the sythethetic data. Well done.
 ans=log_reg(train,test)
 y_pre=ans.log_test()
 plt.plot(y_pre,marker='o',linestyle='none')
